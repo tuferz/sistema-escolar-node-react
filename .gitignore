@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+dist/
+.env
+
+# Uploads (keep directory)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Logs & temp
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
